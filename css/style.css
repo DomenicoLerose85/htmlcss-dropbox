@@ -6,6 +6,73 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: red;
+.debug{
+    border: 1px solid black;
 }
+
+/* header */
+
+.container{
+    width:100%;
+    margin:0 auto;
+}
+.clearfix:after{
+    content: '';
+    display:table;
+    clear: both;
+}
+
+header{
+    height:80px;
+    line-height: 80px;
+}
+
+.header_logo{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 70%;
+    text-align: center;    
+}
+
+nav .logo, nav ul{
+    float:left;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+a {
+    color: white;
+    font-size: 17px;
+    font-weight: 50px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+li.left{
+    float: left;
+    margin-left: 25px;
+}
+
+li.right{
+    float: right;
+    margin-right: 20px;
+}
+
+.access_btn{
+    padding: 10px 14px;
+    background-color: #fff;
+    color: black;
+    display: inline;
+    text-decoration: none;
+}
+
+
+
+
+/* /header */
