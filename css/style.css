@@ -132,39 +132,84 @@ section{
 .left_column p{
     width: 57%;
     margin-left: 60px;
+    margin-bottom: 10px;
 }
 
 .jumbo_img{
     width: 250%;
 }
 
+.start_trial{
+    width:  185px;
+    height: 40px;
+    background-color: rgb(62, 62, 255);
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 
-/* .jumbo_wrapper{
-    width: 100%;
-    height: 1000px;
-} */
+.delete_subscription{
+    margin-left: 60px;
+}
 
+#plans{
+    padding-top: 200px;
+}
 
-/* .header_p{
-    font-size: 20px;
-    left: 155px;
-    top: 255px;
-    position: absolute;
-    text-align: left;
-} */
+.middle_container{
+    width: 80%;
+    margin: 0 auto;
+}
 
-
-.title{
-    font-size: 60px;
+.header2{
+    font-size: 53px;
+    text-align: center;
     font-weight: bold;
-    left: 155px;
-    top: 155px;
-    position: absolute;
-    text-align: left;
+}
+.check_left{
+    display: inline-block;
+    margin-top: 45px;
+    width: 320px;
+    margin-left: 125px;
+}
+
+.check_right{
+    display: inline-block;
+    margin-top: 45px;
+    width: 320px;
+}
+
+/* #plans .check_left_box {
+    margin-right: 20px;
+    border: solid 5px blue;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 15px;
+}
+#plans .check_right_box {
+    margin-left: 10px;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.row_plans{
+    width: 120px;
+}
+
+#plans .col_left .col_middle .col_right {
+    float: left;
+    width: calc((100% / 3) -40px);
+    margin: 0 60px;
+
 } */
-
-
-
-
 
 /* /main */
