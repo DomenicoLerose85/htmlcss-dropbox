@@ -182,7 +182,7 @@ section{
     width: 320px;
 }
 
-/* #plans .check_left_box {
+#plans .check_left_box {
     margin-right: 20px;
     border: solid 5px blue;
     width: 20%;
@@ -205,11 +205,16 @@ section{
     width: 120px;
 }
 
-#plans .col_left .col_middle .col_right {
+#plans .col_left, .col_middle, .col_right {
     float: left;
     width: calc((100% / 3) -40px);
     margin: 0 60px;
 
-} */
+}
+
+span .singolo{
+    text-align: center;
+    margin-top: 20px;
+}
 
 /* /main */
