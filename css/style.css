@@ -206,7 +206,8 @@ section{
 
 .row-plans{
     width: 100%;
-    height: 800px; 
+    height: 725px; 
+    margin-top: 50px;
     border:  1px solid black;
 }
 
@@ -230,7 +231,7 @@ span .singolo{
     float: left;
     margin: 0;
     width: 40%;
-    height: 500px;
+    height: 650px;
     border:  1px solid black;
 }
 
@@ -245,14 +246,46 @@ span .singolo{
 
 .top_section_col_left{
     text-align: center;
+    border:  1px solid black;
+    height: 50px;
 }
 
 .top_section_col_middle{
     text-align: center;
+    border:  1px solid black;
+    height: 50px;
 }
 
 .top_section_col_right{
     text-align: center;
+    border:  1px solid black;
+    height: 50px; 
 }
+
+.col_bottom {
+    display: block;
+    float: left;
+    margin: 160px auto;
+    width: 100%;
+    height: 300px;
+    border:  1px solid black;
+}
+
+.top_section_col_bottom {
+    text-align: center;
+    border:  1px solid black;
+    height: 50px; 
+}
+
+.partner_dropbox{
+    width: 80%;
+    height: 550px;
+    margin: 475px auto;
+    display: block;
+    border:  1px solid black;
+}
+
+
+
 
 /* /main */
