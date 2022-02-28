@@ -438,7 +438,7 @@ hr{
 
 .business_operation{
     width: 80%;
-    height: 550px;
+    height: 1030px;
     margin: -800px auto;
     display: block;
     position: relative;
@@ -455,4 +455,66 @@ hr{
     margin-top: 26px;
     font-size: 45px;
 }
+
+.business_operation_left{
+    width: 33%;
+    height: 450px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.business_operation_middle, .business_operation_right, .business_operation_bottom_left, .business_operation_bottom_middle, .business_operation_bottom_right {
+    width: 33%;
+    height: 450px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.top_business_operation_left{
+    width:100%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.teams{
+    width: 80%;
+    height: 230px;
+    margin-top: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1_teams{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 52px;        
+}
+
+.discover_clients{
+    color: #0061ff; 
+    text-decoration-line: underline; 
+    font-weight: 500;
+}
+
+.teams_logos{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.dropbox_for_your_company{
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    background-color: #b4d0e7;
+}
+
+.h2_dropbox_for_your_company{
+    padding-left: 165px;
+    padding-top: 125px;
+    font-size: 48px;
+    color: #61082b;
+}
+
+
 /* /main */
